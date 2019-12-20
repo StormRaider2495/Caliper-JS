@@ -5,6 +5,7 @@ doc
 doc/*
 test/resources
 *.log
+package-lock.json
 
 # Intellij
 .idea/
