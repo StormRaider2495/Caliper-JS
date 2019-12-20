@@ -1,0 +1,56 @@
+{
+  "name": "caliperjs",
+  "version": "1.1.3",
+  "description": "Caliper Javascript Sensor",
+  "keywords": [
+    "caliper",
+    "caliperjs",
+    "caliper-js",
+    "imsglobal",
+    "sensor"
+  ],
+  "license": "LGPL-3.0",
+  "contributors": [
+    {
+      "name": "Prashant Nayak",
+      "email": "prashant@intellifylearning.com"
+    },
+    {
+      "name": "Anthony Whyte",
+      "email": "arwhyte@umich.edu"
+    }
+  ],
+  "dependencies": {
+    "caterpillar": "^3.0.x",
+    "caterpillar-browser": "^3.0.x",
+    "caterpillar-filter": "^3.0.x",
+    "caterpillar-human": "^3.0.x",
+    "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
+    "hashmap": "^2.1.0",
+    "http-browserify": "^1.7.0",
+    "https-browserify": "^1.0.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "node-uuid": "^1.4.7",
+    "request": "^2.87.0",
+    "uri-js": "^3.0.2",
+    "url": "^0.11.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "deep-diff": "^0.3.0",
+    "grunt": "^1.0.4",
+    "grunt-browserify": "^5.3.0",
+    "grunt-jsdoc": "^2.2.1",
+    "grunt-tape": "^0.1.x",
+    "jsonfile": "^4.0.0",
+    "karma": "^1.7.1",
+    "karma-browserify": "^5.3.0",
+    "tape": "^4.9.1",
+    "util": "^0.10.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IMSGlobal/caliper-js.git"
+  }
+}
